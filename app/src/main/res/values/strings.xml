@@ -1,0 +1,45 @@
+<resources>
+
+    <!--KEYS-->
+     <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">
+        AIzaSyDh44YW5VLtT5Q2VzBWE4EpWQ-0JP0enXg
+    </string>
+    <string name="baseURLFlickr" translatable="false">https://api.flickr.com/services/rest/?</string>
+    <string name="apiKeyFlickr" translatable="false">2e90fbef3bc38d832e68d53cf7edf1b5</string>
+    <string name="userFlickr" translatable="false">147385463@N04</string>
+    <string name="baseURLTwitter" translatable="false">https://twitter.com/search?q=%22meat%20is%20healthy%22</string>
+
+    <string name="app_name">ACME-ENGLISH</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="menu_home" translatable="false">menu_home</string>
+    <string name="menu_map" translatable="false">menu_map</string>
+    <string name="menu_tweet" translatable="false">menu_tweet</string>
+
+    <string name="android_studio">Android Studio</string>
+    <string name="home">Home</string>
+    <string name="shops">Shops</string>
+    <string name="tweets">Tweets</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="Loading">Loading</string>
+    <string name="Please_wait">Please wait...</string>
+
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="presentacion">PRESENTATION</string>
+    <string name="delivery">Reparto a domicilio</string>
+    <string name="traditional_cut">Corte tradicional</string>
+    <string name="presentation_text">In Carnicerias ACME we offer the best meats, sausages and prepared dishes, among other gourmet delicacies</string>
+    <string name="delivery_text">Realicen su pedido hoy mismo y mañana lo tendran listo en su domicilio.</string>
+    <string name="trad_cut_text">No tenemos bandejas preparadas. Nuestro corte es artesano y profesional.</string>
+    <string name="quality">Calidad</string>
+    <string name="quality_text">Carne de calidad de los valles pirenaicos. Con las mejores garantías de sanidad y sabor.</string>
+    <string name="delivery24">Servicio 24 h</string>
+    <string name="delivery24_text">En nuestro transporte refrigerado garantizamos que cumpileremos en 24 h con nuestros compromisos</string>
+    <string name="restaurant">Restauración</string>
+    <string name="restaurant_text">Servimos a los mejores restaurantes de Zaragoza. Si regentas un restaurante llámanos.</string>
+    <string name="meat_shop">Charcutería</string>
+    <string name="meat_shop_text">Los mejores ejemplares de jamón ibérico y embutidos tradicionales. Especialistas en charcutería</string>
+    <string name="shop1">Meat Shop Beef</string>
+    <string name="shop2">Supermarket Jhons</string>
+    <string name="shop3">Restaurant Happy meal</string>
+</resources>

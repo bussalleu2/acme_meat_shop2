@@ -1,0 +1,191 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorWhite"
+    tools:context="com.bussalleu.acme2.HomeFragment"
+
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_vertical_margin_double"
+            android:layout_marginLeft="@dimen/activity_margin_left_right"
+            android:layout_marginRight="@dimen/activity_margin_left_right"
+            android:gravity="center_horizontal"
+            android:text="@string/presentacion"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_margin_8"
+            android:layout_marginLeft="@dimen/activity_margin_left_right"
+            android:layout_marginRight="@dimen/activity_margin_left_right"
+            android:gravity="center_horizontal"
+            android:text="@string/presentation_text" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_margin_left_right"
+            android:layout_marginRight="@dimen/activity_margin_left_right"
+            android:gravity="center_horizontal"
+            android:text="@string/delivery"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_margin_8"
+            android:layout_marginLeft="@dimen/activity_margin_left_right"
+            android:layout_marginRight="@dimen/activity_margin_left_right"
+            android:gravity="center_horizontal"
+            android:text="@string/delivery_text" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_vertical_margin"
+            android:layout_marginLeft="@dimen/activity_margin_left_right"
+            android:layout_marginRight="@dimen/activity_margin_left_right"
+            android:gravity="center_horizontal"
+            android:text="@string/traditional_cut"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_margin_8"
+            android:layout_marginLeft="@dimen/activity_margin_left_right"
+            android:layout_marginRight="@dimen/activity_margin_left_right"
+            android:gravity="center_horizontal"
+            android:text="@string/trad_cut_text"
+            />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="@dimen/activity_vertical_margin_double"
+        android:layout_marginLeft="@dimen/activity_margin_left_right"
+        android:layout_marginRight="@dimen/activity_margin_left_right"
+        android:gravity="center_horizontal"
+        android:text="@string/quality"
+        android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="@dimen/activity_margin_left_right"
+            android:layout_marginRight="@dimen/activity_margin_left_right"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_margin_8"
+            android:layout_marginLeft="@dimen/activity_margin_left_right"
+            android:layout_marginRight="@dimen/activity_margin_left_right"
+            android:gravity="center_horizontal"
+            android:text="@string/quality_text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_vertical_margin_double"
+            android:layout_marginLeft="@dimen/activity_margin_left_right"
+            android:layout_marginRight="@dimen/activity_margin_left_right"
+            android:gravity="center_horizontal"
+            android:text="@string/delivery24"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="@dimen/activity_margin_left_right"
+            android:layout_marginRight="@dimen/activity_margin_left_right"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_margin_8"
+            android:layout_marginLeft="@dimen/activity_margin_left_right"
+            android:layout_marginRight="@dimen/activity_margin_left_right"
+            android:gravity="center_horizontal"
+            android:text="@string/delivery24_text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_vertical_margin_double"
+            android:layout_marginLeft="@dimen/activity_margin_left_right"
+            android:layout_marginRight="@dimen/activity_margin_left_right"
+            android:gravity="center_horizontal"
+            android:text="@string/restaurant"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="@dimen/activity_margin_left_right"
+            android:layout_marginRight="@dimen/activity_margin_left_right"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_margin_8"
+            android:layout_marginLeft="@dimen/activity_margin_left_right"
+            android:layout_marginRight="@dimen/activity_margin_left_right"
+            android:gravity="center_horizontal"
+            android:text="@string/restaurant_text"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_vertical_margin_double"
+            android:layout_marginLeft="@dimen/activity_margin_left_right"
+            android:layout_marginRight="@dimen/activity_margin_left_right"
+            android:gravity="center_horizontal"
+            android:text="@string/meat_shop"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/img4"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:scaleType="centerCrop"
+            android:adjustViewBounds="true"
+            android:layout_marginLeft="@dimen/activity_margin_left_right"
+            android:layout_marginRight="@dimen/activity_margin_left_right"
+            />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="@dimen/activity_margin_8"
+            android:layout_marginLeft="@dimen/activity_margin_left_right"
+            android:layout_marginRight="@dimen/activity_margin_left_right"
+            android:gravity="center_horizontal"
+            android:text="@string/meat_shop_text"
+            />
+
+  </LinearLayout>
+</ScrollView>
+
+
